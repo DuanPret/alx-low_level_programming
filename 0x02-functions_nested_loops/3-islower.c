@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * islower - checks if given input is lowercase
+ * _islower - checks if c input is lowercase
+ *
+ * @c: input parameter
  *
  * Return: 0 is false, 1 is true
  */
