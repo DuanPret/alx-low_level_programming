@@ -35,6 +35,6 @@ int main(void)
 		a2 = a2 + b2;
 		b2 = a2 - b2;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
