@@ -12,13 +12,13 @@ int main(void)
 
 	for (n = 0; n < 49; n++)
 	{
-		printf("%ld, ", n);
+		printf("%d, ", a);
 		c = a + b;
 		a = b;
 		b = c;
 		if (n == 48)
 		{
-			printf("%ld\n", a);
+			printf("%d\n", a);
 		}
 	}
 	return (0);
