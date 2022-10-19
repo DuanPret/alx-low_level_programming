@@ -17,6 +17,7 @@ int main(void)
 			d = d + b;
 		}
 		c = a + b;
+		a = b;
 		b = c;
 	}
 	printf("%ld\n", d);
