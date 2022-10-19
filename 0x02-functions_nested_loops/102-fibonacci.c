@@ -8,17 +8,17 @@
  */
 int main(void)
 {
-	int n, a = 1, b = 2, c;
+	long int n, a = 1, b = 2, c;
 
 	for (n = 0; n < 49; n++)
 	{
-		printf("%d, ", a);
+		printf("%ld, ", a);
 		c = a + b;
 		a = b;
 		b = c;
 		if (n == 48)
 		{
-			printf("%d\n", a);
+			printf("%ld\n", a);
 		}
 	}
 	return (0);
