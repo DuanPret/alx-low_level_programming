@@ -4,7 +4,7 @@
 /**
  * main - prints Fizz for multiples of 3 and Buzz for multiples of 5
  *
- * Return: Always 0
+ * Return: result
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	while (i <= 100)
 	{
-		if (i % (3 * 5) == 0)
+		if (i % 15 == 0)
 			printf("FizzBuzz ");
 		else if (i % 3 == 0)
 			printf("Fizz ");
@@ -21,9 +21,10 @@ int main(void)
 		else
 			printf("%d ", i);
 
+
 		i++;
 	}
 	printf("\n");
 
-	return (0);
+
 }
