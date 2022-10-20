@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - counts from one to hundred and every multiple of three prints Fizz
- * and every multiple of 5 prints Buzz, if multiple of both print FizzBuzz
+ * main - prints Fizz for multiples of 3 and Buzz for multiples of 5
  *
- * Return: Result
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,7 +12,7 @@ int main(void)
 
 	while (i <= 100)
 	{
-		if (i % 15 == 0)
+		if (i % (3 * 5) == 0)
 			printf("FizzBuzz ");
 		else if (i % 3 == 0)
 			printf("Fizz ");
