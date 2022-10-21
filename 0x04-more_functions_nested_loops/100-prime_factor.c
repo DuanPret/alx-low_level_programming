@@ -6,16 +6,17 @@
  */
 int main(void)
 {
-	unsigned long int n, i = 612852475143;
+	long int n, i = 612852475143;
 
-	for (i = 3; i <= 782849; i = i + 2)
+	for (i = 2; i <= n; i++)
 	{
-		while ((n % i == 0) && (n != i))
+		if (n % i == 0)
 		{
-			n = n / i;
+			n /= i;
+			i--;
 		}
 	}
 
-	printf("%lu\n", n);
+	printf("%ld\n", i);
 	return (0);
 }
