@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - reverse string
+ * rev_string - reverse string
  *
  * @s: string to reverse
  * Return: nothing.
@@ -20,7 +20,7 @@ void rev_string(char *s)
 	for (i = 0; i < r; i++)
 		e++;
 
-	for (i = 0; i < r/2; i++)
+	for (i = 0; i < r / 2; i++)
 	{
 		ch = *e;
 
