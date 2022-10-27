@@ -8,7 +8,7 @@
 char *cap_string(char *s)
 {
 	int i, d;
-	char delimeters[] = "\t\n,;.!?\"(){}";
+	char delimeters[] = " \t\n,;.!?\"(){}";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
