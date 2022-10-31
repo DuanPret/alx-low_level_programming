@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * _strspn - length of prefix substring
  * @s: segment to return from
