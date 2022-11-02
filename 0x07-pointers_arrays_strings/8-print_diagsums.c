@@ -8,7 +8,9 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, c = 0, d = 0;
+	int i;
+	int c = 0;
+	int d = 0;
 
 	for (i = 0; i < size; i++)
 	{
@@ -16,7 +18,6 @@ void print_diagsums(int *a, int size)
 		d += a[size - i - 1];
 		a += size;
 	}
-
 	printf("%d", c);
 	printf("%d\n", d);
 }
