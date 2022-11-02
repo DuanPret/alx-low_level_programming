@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsum - prints the sum of two diagonals
  * @a: pointer to array
  * @size: Size of matrix
  * Return: nothing.
  */
-void print_diagsum(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i, c = 0, d = 0;
 
