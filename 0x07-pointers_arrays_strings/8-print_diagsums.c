@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsum - prints the sum of two diagonals
+ * print_diagsums - prints the sum of two diagonals
  * @a: pointer to array
  * @size: Size of matrix
  * Return: nothing.
