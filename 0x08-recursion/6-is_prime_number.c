@@ -7,7 +7,7 @@
  * @p: possible prime number
  * Return: 1 if prime, else 0
  */
-int prime_check(int f, p)
+int prime_check(int f, int p)
 {
 	if (p < 2 || p % f == 0)
 		return (0);
