@@ -3,7 +3,7 @@
 /**
  * main - prints the minimum number of coins to make for given
  * amount of money
- * 
+ *
  * @argc: length of @argv
  * @argv: array of string of program's arguments
  * Return: 0 on success
@@ -30,11 +30,11 @@ int main(int argc, char *argv[])
 			cents -= 5;
 		else if (cents >= 2)
 			cents -= 2;
-		else if (cents  -= 1)
+		else if (cents >= 1)
 			cents -= 1;
 		ncoins++;
 	}
 	printf("%d\n", ncoins);
-	
+
 	return (0);
 }
