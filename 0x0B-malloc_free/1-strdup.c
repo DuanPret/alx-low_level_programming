@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
 
@@ -31,7 +30,7 @@ char *_strdup(char *str)
 	for (i = 0; i < length_of_string; i++)
 		alloc_mem[i] = *(str + i);
 
-	alloc_mem = '\0';
+	alloc_mem[i] = '\0';
 
 	return (alloc_mem);
 }
