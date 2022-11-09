@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; i < l1; i++)
 		alloc_mem[i] = *(s1 + i);
 
-	for (j = 0; j < l2; j++)
+	for (j = 0; j < l2; j++, i++)
 		alloc_mem[i] = *(s2 + j);
 
 	return (alloc_mem);
