@@ -10,7 +10,7 @@
  * Return: newly allocated space in memory on success,
  * on failure return NULL
  */
-char *string_nconcat(char *s1, char*s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ar;
 	unsigned int i = 0, j = 0, m, p, k = 0, len;
@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char*s2, unsigned int n)
 
 	len = i + j;
 
-	ar = malloc(sizeof(char) *(len + 1));
+	ar = malloc(sizeof(char) * (len + 1));
 	if (ar == NULL)
 		return (NULL);
 
