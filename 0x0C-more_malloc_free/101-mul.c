@@ -9,7 +9,7 @@
  * @argv: arguments
  * Return: 0 on success
  */
-int main(int argc, char *argv [])
+int main(int argc, char *argv[])
 {
 	unsigned long mult;
 	int i, j;
