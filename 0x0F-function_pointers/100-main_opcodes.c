@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 			exit(2);
 		}
 		for (i = 0; i < n_bytes; i++)
-			printf("%02x%c", 
+			printf("%02x%c",
 					(unsigned char)*((char *)prog + i), i < n_bytes - 1 ? ' ' : '\n');
 	}
 	else
