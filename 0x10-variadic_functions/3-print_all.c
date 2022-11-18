@@ -85,7 +85,7 @@ void print_char(va_list *arg)
 }
 
 /**
- * print_int = Print an  integer type
+ * print_int - Print an  integer type
  *
  * @arg: Pointer to integer
  */
