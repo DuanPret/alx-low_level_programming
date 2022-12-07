@@ -29,7 +29,7 @@ int main(int ac, char **av)
 	if (file_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
-		exit (99);
+		exit(99);
 	}
 	while (l_read == 1024)
 	{
@@ -48,8 +48,7 @@ int main(int ac, char **av)
 	}
 	close_file = close(file_from);
 	if (close_file == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to);
+	ii	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to);
 		exit(100);
 	}
 	close_file = close(file_to);
