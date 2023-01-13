@@ -4,7 +4,7 @@
  * insert_dnodeint_at_index - insert a node to a dlistint_t list
  * @h: double pointer to structure
  * @idx: index of node to get from list
- * @: data
+ * @n: data
  * Return: address of nth node, NULL on failure
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
@@ -31,7 +31,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	tmp = *h;
 	nth = 0;
 
-	while (tmp && nth < idx -1)
+	while (tmp && nth < idx - 1)
 	{
 		nth++;
 		tmp = tmp->next;
