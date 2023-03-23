@@ -1,9 +1,8 @@
-CC: gcc
+CC = gcc
 
-SRC: school.c
+SRC = main.c school.c
 
-OBJ: school.o
-
+OBJ = $(SRC:%.c=%.o)
 Name = school
 
 %.o: %.c m.h
