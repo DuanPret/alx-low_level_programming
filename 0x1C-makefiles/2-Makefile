@@ -1,0 +1,13 @@
+CC: gcc
+
+SRC: school.c
+
+OBJ: school.o
+
+Name = school
+
+%.o: %.c m.h
+	# put output to the left
+	$(CC) -c -o $@ $<
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
